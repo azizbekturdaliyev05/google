@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .google{
+            position: relative;
+            border-top: 30px solid red ;
+            border-right: 30px solid #4285f4;
+            border-bottom: 30px solid #34a853;
+            border-left: 30px solid #fbbc05;
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+        }
+        .google::before {
+            content: "";
+            position: absolute;
+            top:50%;
+            right:-27px;
+            transform: translateY(-50%);
+            width: 72px;
+            height: 30px;
+            background: #4285f4;
+        }
+        .google::after {
+            content: "";
+            position: absolute;
+            border-top: 60px solid transparent;
+            border-right: 60px solid #fdfdfdfa; 
+            top: -30px;
+            right: -30px;
+        }
+        h1{
+            text-align: center;
+            color: rgb(216, 27, 27);
+        }
+        marquee{
+    color: rosybrown;
+    background: rgb(42, 42, 43);
+        }
+    </style>
+    <title>Google seymbol</title>
+</head>
+<body>
+     <marquee behavior="#" direction=""><h2>Assalomu Alekum! Bizning  Wep saytimizga xush kelibsiz.Sayni 0 dan tuzib chiqdi. (Azizbek Turdaliyev).</h2></marquee>
+<h1>Google symbol</h1>
+<div class="google"></div>
+<br>
+<img src="img/aaa.jpg" alt="Bu yerda rasm bor" width="100%">
+   
+</body>
+</html>
